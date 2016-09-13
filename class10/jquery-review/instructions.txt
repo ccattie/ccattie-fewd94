@@ -2,7 +2,7 @@
 JQUERY REVIEW INSTRUCTIONS
 ==========================
 
-1) In the HTML / CSS, create two boxes, each with identical initial style:
+1) In the HTML / CSS, create two boxes,/Users/chriscattie/Desktop/ccattie-fewd94/class10/jquery-review/instructions.txt each with identical initial style:
 
 	- Use whatever HTML elements you feel are appropriate to create the boxes
 
