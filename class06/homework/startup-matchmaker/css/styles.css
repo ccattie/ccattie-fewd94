@@ -3,6 +3,11 @@
 // font-family: 'Merriweather', serif;
 // font-family: 'Source Sans Pro', sans-serif;
 
-.wrapper {
+#container {
 	margin: 0 auto;
+}
+
+.title {
+	background-color: black;
+	color: yellow;
 }
