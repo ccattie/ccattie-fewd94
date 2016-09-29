@@ -4,7 +4,9 @@
 // font-family: 'Source Sans Pro', sans-serif;
 
 .container {
-	margin: 0 auto;
+	background-color: black;
+	display: block;
+	width: 100%;
 }
 
 h1 {
@@ -14,40 +16,57 @@ h1 {
 	text-align: left;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	padding-left: 20px;
+	padding-left: 20px;	
 	border-bottom: 5px solid yellow;
 }
 
-nav {
+nav{
 	background-color: black;
 	font-family: sans-serif;
 	text-align: right;
 	color: white;
 	padding: 5px;
+	text-align: right;
 }
 
 nav a{
 	padding: 10px;
 	color: white;
-	font-family: 'Merriweather', serif;
-	font-size: 12px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15px;
 	text-decoration: none;
 }
 
-.brains {
-	background-color: gray;
-	padding: 15px;
-	color: black;
-	text-align: center;
-	font-family: 'Source Sans Pro', sans-serif;
+p#brains{
+	font-family: 'Merriweather', serif;
+	font-size: 25px;
+	font-weight: bold;
 	font-style: italic;
-	font-size: 20px;
 }
+
+#taste{
+	text-decoration: line-through;
+	color: gray;
+}
+
+#are{
+	text-decoration: underline;
+	text-decoration-color: yellow;
+}
+
+.brainsbox{
+	background-color: lightgray;
+	width: 100%;
+	padding: 1px;
+	text-align: center;
+	vertical-align: middle;
+}	
 
 img {
 	width: 100%;
-	height: auto;
+	height: 700px;
 }
-h2 {
-	display: inline-block;
+
+.rightbox{
+	
 }
