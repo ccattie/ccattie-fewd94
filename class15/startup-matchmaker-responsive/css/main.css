@@ -152,8 +152,41 @@ p {
 	background: #C6C6C6;
 }
 
+img.wrapper{
+	display: none;
+}
+
+.mobilenav{
+	display: none;
+}
+
 footer {
 	background: black;
 	color: white;
 	padding: 2% 3%;
+}
+
+
+
+@media (max-width: 600px) {
+	.tout{
+		float: none;
+		width: 100%;
+	}
+
+	.blurb p{
+		display: none;
+	}
+
+	nav.desktopnav{
+		display: none;
+	}
+
+	img.wrapper{
+		display: block;
+		float: right;
+	}
+
+	
+
 }
