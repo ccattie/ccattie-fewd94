@@ -1,4 +1,10 @@
+#logo{
+	width: auto;
+	height: 90%
+}
+
 body {
 	background: black;
 	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
 }
