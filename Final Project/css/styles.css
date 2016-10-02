@@ -48,22 +48,27 @@ body {
 	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
 }
 
+
+
 @media screen and (max-width: 500px) {
 
 	header nav{
-		float: left;
+		float: none;
+		text-align: center;
 	}
 
 	header nav a{
 		display: block;
+		text-align: center;
 	}
 
 	#mobilelogo{
+		display: block;
 		width: 99%;
 		height: auto;
 		background-image: inherit;
 	}
-	
+
 	#desktoplogo{
 		display: none;
 	}
