@@ -1,10 +1,70 @@
-#logo{
-	width: auto;
-	height: 90%
+#headercontainer{
+	width: 95%;
+	height: 10%;
+	margin: 0 auto;
+	background-color: #516591;
 }
 
-body {
-	background: black;
+#desktoplogo{
+	width: 99%;
+	height: auto;
+	background-image: inherit;
+}
+
+header {
+	background-color: #516591;
+	overflow: hidden;
+	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+
+}
+
+header nav {
+	float: right;
+	margin-top: 8px;
+}
+
+header nav a {
+	display: inline-block;
 	color: white;
-	font-family: 'Source Sans Pro', sans-serif;
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 50px;
+}
+
+a:hover {
+	color: sepia;
+	font-size: 1.5em;
+	font-weight: bold;
+}	
+
+
+body {
+	background: #fff;
+	color: #ff0000;
+	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+}
+
+#mobilelogo{
+	display: none;
+}
+
+@media screen and (max-width: 500px) {
+	
+	header nav{
+		float: left;
+	}
+
+	header nav a{
+		display: block;
+	}
+
+	#desktoplogo{
+		display: none;
+	}
+
+	#mobilelogo{
+		width: 99%;
+		height: auto;
+		background-image: inherit;
+	}
 }
