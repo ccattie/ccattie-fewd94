@@ -57,6 +57,11 @@ body {
 .bloglist{
 	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
 	margin: 0 0 2% 2%;
+	font-weight: bold;
+}
+
+p.blog{
+margin-left: 4%;
 }
 
 
