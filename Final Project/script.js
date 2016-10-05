@@ -6,7 +6,7 @@ $('#blog1li').click(function(){
 
 
 
-$('#blog2').hide();
+$('.blog').hide();
 
 $('#blog2li').click(function(){
 	$('#blog2').slideToggle();
