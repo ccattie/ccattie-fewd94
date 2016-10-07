@@ -1,3 +1,5 @@
+/* GLOBAL */
+
 #headercontainer{
 	width: 95%;
 	height: 10%;
@@ -15,6 +17,10 @@
 	display: none;
 }
 
+#mobilevideo{
+	display: none;
+}
+
 header {
 	background-color: #516591;
 	overflow: hidden;
@@ -23,7 +29,6 @@ header {
 
 header nav {
 	float: right;
-	margin-top: 8px;
 }
 
 header nav a {
@@ -33,10 +38,6 @@ header nav a {
 	font-size: 16px;
 	margin-left: 25px;
 	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
-}
-
-iframe{
-	display: block;
 }
 
 a:hover {
@@ -52,13 +53,37 @@ li:hover {
 	text-transform: uppercase;
 	padding: 1%;
 	transition: all 0.5s;
-}	
+}
 
 body {
 	background: #fff;
 	color: black;
+	background-color: lightgrey;
 	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
 }
+
+/* HOMEPAGE */
+
+iframe{
+	display: block;
+	align: center;
+	text-align: center;
+}
+
+#homepagecontainer{
+	background-color: lightgrey;
+	overflow: hidden;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+h1{
+	text-align: center
+	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+
+}
+
+/* BLOG */
 
 .bloglist{
 	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
@@ -69,7 +94,11 @@ body {
 p.blog{
 margin-left: 4%;
 margin-right: 4%;
+font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+
 }
+
+/* Find a Board Page */
 
 input{
 	display: block;
@@ -131,9 +160,17 @@ select{
 		background-image: inherit;
 	}
 
-	#desktoplogo{
-		display: none;
+	#mobilevideo{
+		display: block;
+		width: 300px;
+		height: auto;
 	}
 
-	
+	#desktoplogo{
+		display: none;
+	}	
+
+	#desktopvideo{
+		display: none;
+	}
 }
