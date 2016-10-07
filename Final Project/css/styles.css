@@ -35,6 +35,10 @@ header nav a {
 	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
 }
 
+iframe{
+	display: block;
+}
+
 a:hover {
 	font-size: 1.5em;
 	font-weight: bold;
@@ -70,11 +74,36 @@ margin-right: 4%;
 input{
 	display: block;
 	margin: 2%;
+	width: 30%;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}    
+
+input[type=text] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
 }
 
 select{
 	display: block;
 	margin: 2%;
+	width: 30%;
+}
+
+#findaboardbutton{
+	margin: 2%;
+	width: 10%;
+	height: 5%;
+	padding: 2%;
+	background-color: #dcdcdc;
+  	border: 1px solid #666;
+  	color:#000;
+  	border-radius: 10%;
+
 }
 
 @media screen and (max-width: 700px) {
