@@ -62,6 +62,11 @@ body {
 	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
 }
 
+span{
+	font-size: 1.25em;
+	color: #98BAF9;
+}
+
 /* HOMEPAGE */
 
 iframe{
@@ -125,13 +130,24 @@ select{
 
 #findaboardbutton{
 	margin: 2%;
-	width: 10%;
-	height: 5%;
+	margin-left: 7%;
+	width: 20%;
+	height: 3%;
 	padding: 2%;
-	background-color: #dcdcdc;
+	background-color: #98BAF9;
   	border: 1px solid #666;
   	color:#000;
   	border-radius: 10%;
+}
+
+.quotebox{
+	height: 20%;
+}
+
+.intro{
+	margin: 2%;
+	font-size: 100%;
+	font-style: italic;
 
 }
 
@@ -139,12 +155,11 @@ select{
 
 	header nav{
 		float: none;
-		text-align: center;
 	}
 
 	header nav a{
 		display: block;
-		text-align: center;
+		padding: 2%;
 	}
 
 	a:hover {
