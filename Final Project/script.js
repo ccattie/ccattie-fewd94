@@ -68,7 +68,7 @@ $('#blog1').hide();
 
 $('#blog1li').click(function(){
 	$('#blog1').slideToggle();
-})
+});
 
 
 
@@ -77,11 +77,15 @@ $('#blog1').hide();
 
 $('#blog1li').click(function(){
 	$('#blog1').slideToggle();
-})
+});
 
 
 
 $('input').change(function(){
 	$('input').background-color('red');
-})
+});
+
+$('#findaboardbutton').click(function(){
+	
+});
 
