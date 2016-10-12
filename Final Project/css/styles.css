@@ -157,7 +157,11 @@ input{
 }
 
 input[type=text]:focus {
-    border-color:#333;
+    border: solid 1px #707070;
+ 	box-shadow: 0 0 5px 1px #969696;
+
+ 	border: solid 5px #c9c9c9;
+  	transition: border 0.3s;
 }    
 
 input[type=text] {
@@ -165,29 +169,47 @@ input[type=text] {
     border:2px solid #ccc; 
     -webkit-border-radius: 5px;
     border-radius: 5px;
+    color: black;
+    font-size: 1em;
+    font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+
 }
 
 select{
 	display: block;
 	margin: 2%;
 	width: 50%;
+	font-size: 1em;
+	color: black;
+	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
 }
 
 #findaboardbutton{
 	margin: 2%;
-	margin-left: 7%;
-	width: 20%;
+	margin-left: 12%;
+	width: 30%;
 	height: 3%;
 	padding: 2%;
 	background-color: #98BAF9;
   	border: 1px solid #666;
   	color: white;
   	border-radius: 10%;
+  	font-size: 1em;
+  	font-weight: bold;
+  	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+
 }
 
 #surveycontainer{
 	background-color: #516591;
 	padding: 5%;
+}
+
+.keanu{
+	font-size: 1em;
+  	font-weight: bold;
+  	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  	color: white;
 }
 
 @media screen and (max-width: 700px) {
