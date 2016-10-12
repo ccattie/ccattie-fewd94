@@ -85,7 +85,10 @@ $('input').change(function(){
 	$('input').background-color('red');
 });
 
-$('#findaboardbutton').click(function(){
-	
+$('#findaboardbutton').click(function(e){
+	$('#surveycontainer').empty();
+	$('#surveycontainer').prepend('<img src="img/keanu.jpg">');
+	e.preventDefault();
 });
+
 

@@ -68,7 +68,7 @@ $('#blog1').hide();
 
 $('#blog1li').click(function(){
 	$('#blog1').slideToggle();
-})
+});
 
 
 
@@ -77,4 +77,19 @@ $('#blog1').hide();
 
 $('#blog1li').click(function(){
 	$('#blog1').slideToggle();
-})
+});
+
+
+
+$('input').change(function(){
+	$('input').background-color('red');
+});
+
+$('#findaboardbutton').click(function(e){
+	alert("sdfa")
+	$('#surveycontainer').empty();
+	$('#surveycontainers').prepend('<img src="img/keanu.jpg">');
+	e.preventDefault();
+});
+
+

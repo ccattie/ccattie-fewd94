@@ -60,36 +60,43 @@ body {
 	color: black;
 	background-color: white;
 	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
-
+	line-height: 150%;
 }
 
 .mantra{
+	border-top: solid white 2px;
 	height: 10%;
 	background-color: lightgray;
 	padding: 3%;
 	text-align: center;
 	font-style: italic;
-	font-size: 1.4em;
+	font-weight: bolder;
+	font-size: 20px;
+	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+}
+
+span{
+	font-size: 1.5em;
 	font-weight: bold;
-	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
 }
-
-h4{
-	font-style: italic;
-	font-size: .75em;
-	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
-}
-
 /* HOMEPAGE */
+
+.videocontainer{
+	text-align: center;
+	margin-left: 2%;
+}
 
 .desktopvideo{
 	display: block;
-	align: center;
+	align: middle;
 	margin: 2%;
+	text-align: center;
 }
 
 .mobilevideo{
 	display: none;
+	align: middle;
+	text-align: center;
 }
 
 #homepagecontainer{
@@ -102,14 +109,22 @@ h4{
 h1{
 	text-align: center
 	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+}
 
+.intro{
+	line-height: 150%;
+	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+}
+
+iframe{
+	margin-left: 2%;
 }
 
 /* BLOG */
 
 .bloglist{
 	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
-	margin: 0 0 2% 2%;
+	margin: 2% 2% 2% 2%;
 	font-weight: bold;
 }
 
@@ -117,15 +132,22 @@ p.blog{
 margin-left: 4%;
 margin-right: 4%;
 font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+}
 
+#blogspan{
+	margin: 2% 0 2% 2%;
 }
 
 /* Find a Board Page */
 
 span{
-	font-size: 2em;
+	font-size: 3em;
 	color: #98BAF9;
 	font-weight: bold;
+}
+
+.intro{
+	margin: 2% 2% 2% 2%;
 }
 
 input{
