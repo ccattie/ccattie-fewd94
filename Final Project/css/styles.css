@@ -46,15 +46,6 @@ a:hover {
 	transition: all 0.5s;
 }	
 
-li:hover {
-	font-size: 1.25em;
-	font-weight: bold;
-	color: #98BAF9;
-	text-transform: uppercase;
-	padding: 1%;
-	transition: all 0.5s;
-}
-
 body {
 	background: white;
 	color: black;
@@ -141,6 +132,7 @@ span{
 	font-size: 3em;
 	color: #98BAF9;
 	font-weight: bolder;
+}
 
 /* BLOG */
 
@@ -160,6 +152,18 @@ font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
 	margin: 2% 0 2% 2%;
 }
 
+#blogintro{
+	padding: 2%;
+}
+
+li:hover {
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #516591;;
+	text-transform: uppercase;
+	padding: 1%;
+	transition: all 0.5s;
+}
 /* Find a Board Page */
 
 }
