@@ -77,7 +77,12 @@ body {
 
 span{
 	font-size: 1.5em;
+	font-weight: bolder;
+}
+
+.boldspan{
 	font-weight: bold;
+	font-size: 1.25em;
 }
 /* HOMEPAGE */
 
@@ -129,8 +134,13 @@ iframe{
 .mantra {
     position: relative;
     animation-name: example;
-    animation-duration: 1.8s;
+    animation-duration: 1.6s;
 }
+
+span{
+	font-size: 3em;
+	color: #98BAF9;
+	font-weight: bolder;
 
 /* BLOG */
 
@@ -152,10 +162,6 @@ font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
 
 /* Find a Board Page */
 
-span{
-	font-size: 3em;
-	color: #98BAF9;
-	font-weight: bold;
 }
 
 .intro{
@@ -184,7 +190,6 @@ input[type=text] {
     color: black;
     font-size: 1em;
     font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
-
 }
 
 select{
@@ -194,6 +199,8 @@ select{
 	font-size: 1em;
 	color: black;
 	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+	border-radius: 5px;
+
 }
 
 #findaboardbutton{
@@ -204,7 +211,7 @@ select{
 	padding: 2%;
 	background-color: bisque;
   	border: 1px solid #666;
-  	color: #516591;
+  	color: gray;
   	border-radius: 10%;
   	font-size: 1em;
   	font-weight: bold;
@@ -228,12 +235,16 @@ select{
   	color: white;
   	text-align: center;
   	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  	align: center;
+
 
 }
 
 .keanupic{
 	width: 90%;
 	height: auto;
+	text-align: center;
+	align: center;
 }
 
 .instructions{
@@ -247,8 +258,8 @@ select{
 
 #surveyinstructions{
 	color: white;
+	padding-left: 2%;
 	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
-
 }
 
 @media screen and (max-width: 700px) {
