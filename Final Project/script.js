@@ -83,3 +83,8 @@ $('#findaboardbutton').click(function(e){
   	$('html, body').animate({scrollTop:$(document).height()}, 'slow');
   	e.preventDefault();
 });
+
+$('.contactcontainer').click(function(){
+	$('#surveycontainer2').empty();
+	$('#surveycontainer2').prepend('<img class="keanupic" src="img/keanu2.jpg">');
+});

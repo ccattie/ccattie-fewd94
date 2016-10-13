@@ -110,9 +110,7 @@ h1{
 .intro{
 	line-height: 150%;
 	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
-	margin-top: 2%;
-	margin-left: 2%;
-	margin-right: 2%;
+	margin: 2%;
 }
 
 iframe{
