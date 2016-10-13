@@ -159,7 +159,7 @@ input{
 input[type=text]:focus {
     border: solid 1px #707070;
  	box-shadow: 0 0 5px 1px #969696;
-
+ 	background-color: bisque;
  	border: solid 5px #c9c9c9;
   	transition: border 0.3s;
 }    
@@ -190,14 +190,13 @@ select{
 	width: 30%;
 	height: 3%;
 	padding: 2%;
-	background-color: #98BAF9;
+	background-color: bisque;
   	border: 1px solid #666;
-  	color: white;
+  	color: #516591;
   	border-radius: 10%;
   	font-size: 1em;
   	font-weight: bold;
   	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
-
 }
 
 #surveycontainer{
@@ -210,6 +209,27 @@ select{
   	font-weight: bold;
   	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
   	color: white;
+}
+
+.keanupic{
+	width: 90%;
+	height: auto;
+	padding: 5%;
+}
+
+.instructions{
+	background-color: #516591;
+	font-size: 1em;
+	padding-top: 2%;
+	padding-left: 2%;
+	color: white;
+	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+}
+
+#surveyinstructions{
+	color: white;
+	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+
 }
 
 @media screen and (max-width: 700px) {

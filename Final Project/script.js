@@ -87,7 +87,7 @@ $('input').change(function(){
 
 $('#findaboardbutton').click(function(e){
 	$('#surveycontainer').empty();
-	$('#surveycontainer').prepend('<img src="img/keanu.jpg">');
+	$('#surveycontainer').prepend('<img class="keanupic" src="img/keanu.jpg">');
 	$('#surveycontainer').prepend('<p class="keanu">Great Job!  We will be in touch shortly with next steps.</p><br><br>');
 	e.preventDefault();
 });
