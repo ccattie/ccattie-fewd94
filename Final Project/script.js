@@ -89,7 +89,14 @@ $('#findaboardbutton').click(function(e){
 	$('#surveycontainer').empty();
 	$('#surveycontainer').prepend('<img class="keanupic" src="img/keanu.jpg">');
 	$('#surveycontainer').prepend('<p class="keanu">Great Job!  We will be in touch shortly with next steps.</p><br><br>');
-	e.preventDefault();
+  	$('html, body').animate({scrollTop:$(document).height()}, 'slow');
+  	e.preventDefault();
 });
 
-
+$('#findaboardbutton').click(function(e){
+	$('#surveycontainer2').empty();
+	$('#surveycontainer2').prepend('<img class="keanupic" src="img/keanu2.jpg">');
+	$('#surveycontainer2').prepend('<p class="keanu">Great Job!  We will be in touch shortly with next steps.</p><br><br>');
+  	$('html, body').animate({scrollTop:$(document).height()}, 'slow');
+  	e.preventDefault();
+});

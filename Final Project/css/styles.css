@@ -216,17 +216,24 @@ select{
 	padding: 5%;
 }
 
+#surveycontainer2{
+	background-color: #516591;
+	padding: 5%;
+}
+
 .keanu{
-	font-size: 1em;
+	font-size: 2em;
   	font-weight: bold;
   	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
   	color: white;
+  	text-align: center;
+  	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+
 }
 
 .keanupic{
 	width: 90%;
 	height: auto;
-	padding: 5%;
 }
 
 .instructions{
