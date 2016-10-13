@@ -111,6 +111,8 @@ h1{
 	line-height: 150%;
 	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
 	margin-top: 2%;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 
 iframe{
@@ -276,16 +278,14 @@ select{
 	background-color: bisque;
 	display: inline-block
 
-}
 
-#address{
-	float: left;
-	text-align: center;
 }
 
 #email{
-	float: right;
+	float: left;
 	text-align: center;
+	clear: both;
+	padding: 2%;
 }
 
 
