@@ -41,7 +41,7 @@ header nav a {
 }
 
 a:hover {
-	font-size: 1.5em;
+	font-size: 1.25em;
 	font-weight: bold;
 	transition: all 0.5s;
 }	
@@ -118,6 +118,18 @@ h1{
 
 iframe{
 	margin-left: 2%;
+}
+
+@keyframes example {
+    0%   {background-color: bisque; bottom:0px; top:0px;}
+    50%  {background-color: #98BAF9; bottom:10px; top:10px;}
+    100% {background-color: lightgrey; bottom:0px; top:0px;}
+}
+
+.mantra {
+    position: relative;
+    animation-name: example;
+    animation-duration: 1.8s;
 }
 
 /* BLOG */
@@ -244,7 +256,7 @@ select{
 	}
 
 	a:hover {
-	font-size: 1.5em;
+	font-size: 1.25em;
 	font-weight: bold;
 	padding: 2%;
 	}	
