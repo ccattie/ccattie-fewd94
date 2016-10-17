@@ -1,0 +1,25 @@
+.row div {
+	text-align: center;
+	width: 110px;
+	padding: 40px;
+	border: 1px solid #252525;
+	float: left;
+}
+
+.row div:hover {
+	background-color: #dddddd;
+	cursor: pointer;
+	font-style: bold;
+}
+
+#app {
+	padding-top: 60px;
+	width: 600px;
+	margin: 0px auto;
+}
+
+.clear {
+	clear: both;
+}
+
+

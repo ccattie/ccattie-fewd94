@@ -2,6 +2,14 @@ $(document).ready(function(){
 	// define the "initial  state" of our application; in otherwords, when the program first runs, we want to set a variable, total, equal to 0
 	var total = 0;
 
+	$('#orange').click(function(){
+		$('#out').css('background-color', 'orange');
+	});
+
+	$('#blue').click(function(){
+		$('#out').css('background-color', 'blue');
+	});
+
 	$('#a10').click(function(){
 		total = total + 10;
 		$('#out').html(total);
@@ -30,14 +38,6 @@ $(document).ready(function(){
 	$('#n30').click(function(){
 		total = total - 30;
 		$('#out').html(total);
-	});
-
-	$('#red').click(function(){
-		$('#out').css('background-color', 'red');
-	});
-
-	$('#blue').click(function(){
-		$('#out').css('background-color', 'blue');
 	});
 
 	$('#out').click(function(){
